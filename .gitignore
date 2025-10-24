@@ -1,0 +1,28 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Flask instance / uploads (if any)
+instance/
+*.sqlite
+*.db
+
+# If using Pipenv / Poetry
+Pipfile.lock
+poetry.lock
